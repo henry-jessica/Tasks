@@ -91,7 +91,7 @@ export default function App() {
           placeholder="What do you have to do today?"
           style={styles.input}
           value={input}
-          onChangeText={(texto) => setInput(texto)}
+          onChangeText={(text) => setInput(text)}
           />
           <TouchableOpacity style={styles.handleAdd} onPress={handleAdd}>
             <Text style={styles.addText}>Confirm</Text>
